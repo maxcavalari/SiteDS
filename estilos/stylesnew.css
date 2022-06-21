@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Zombies';
+    src: url(../fontes/ZOMBIES\ REBORN.ttf);
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    background-image: url('../imagens/novobg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    min-height: 150px;
+}
+
+header > h1 {
+    padding-top: 20px;
+    color: red;
+    font-family: 'Zombies';
+    font-size: 5em;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+nav > a {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+nav > a:hover {
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    background-color: black;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+}
+
+main > p {
+    color: white;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    padding: 20px;
+    margin: auto;
+
+}
+
+div.discord {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    text-align: -webkit-center;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
